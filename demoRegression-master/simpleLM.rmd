@@ -46,28 +46,29 @@ summary.lm(simp)
 ```
 the adjusted r square for HEADWTH is 0.5321
 
+```{r}
+simp <- lm(LENGTH~AGE,data=bears)
+plot(LENGTH~AGE,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+the adjusted r square for AGE is 0.5073
 
+```{r}
+simp <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+The r squared for CHEST is 0.7869
 
+```{r}
+simp <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+the adjusted r square for WEIGHT is 0.7423
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Discussion Conclusion 
+Considering the adjusted r square for all od these considering which is the adjusted r square is the best shown from the graphs above. Consulting head size opposed to the others is best. 
