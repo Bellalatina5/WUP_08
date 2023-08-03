@@ -26,7 +26,7 @@ plot(LENGTH~NECK,data=bears)
 abline(simp)
 summary.lm(simp)
 ```
-the adjusted r square that is largest and the best. The neck size is 0.7476.
+the adjusted r square for neck is 0.7476.
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
@@ -71,4 +71,19 @@ summary.lm(simp)
 the adjusted r square for WEIGHT is 0.7423
 
 ### Discussion Conclusion 
-Considering the adjusted r square for all od these considering which is the adjusted r square is the best shown from the graphs above. Consulting head size opposed to the others is best. 
+Considering the adjusted r square for all of these considering which is the adjusted r square is the best shown from the graphs above. Consulting head size opposed to the others is best. 
+
+Age           .05073
+
+HEADWTH       .05321
+
+WEIGHT        .07423
+
+NECK          .07476
+
+CHEST         .07869
+
+Head Length   0.8434
+
+
+In conclusion, the highest R square, 0.8434 for the head length, making it the best model out of the 6. 
